@@ -1,6 +1,6 @@
 // making kelometer to meter
-function kelometerToMeter(km){
-    var meter=km*1000;
+function kelometerToMeter(kelometer){
+    var meter = kelometer*1000;
     return meter
 
 }
