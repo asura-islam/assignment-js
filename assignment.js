@@ -1,10 +1,12 @@
-// making kelometer to meter
-function kelometerToMeter(kelometer){
-    var meter = kelometer*1000;
+
+// https://github.com/asura-islam/assignment-js
+// making kilometer to meter
+function kilometerToMeter(kilometer){
+    var meter = kilometer*1000;
     return meter
 
 }
-var result=kelometerToMeter(120);
+var result=kilometerToMeter(120);
 console.log(result);
 
 
@@ -54,12 +56,12 @@ function hotelCost(days){
     
     
     // megaFriend identify the largest number of string value
-    function megaFriends(friends){
+    function megaFriend(friends){
         var max= friends[0];
         for(var i=0;i>friends.length;i++){
             var element=friends[i];
         }
         return max
         }
-        var result= megaFriends(['hadiuzzaman','zobaija','nurjahan','anondi']);
+        var result= megaFriend(['hadiuzzaman','zobaija','nurjahan','anondi']);
         console.log(result);
